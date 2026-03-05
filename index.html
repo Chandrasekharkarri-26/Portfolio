@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Karri Chandra Sekhar | Portfolio</title>
+  <meta name="description" content="Portfolio of Karri Chandra Sekhar - B.Tech ECE student at IIT Bhubaneswar, specializing in VLSI, Embedded Systems, and GPU Programming.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav>
+    <div class="container">
+      <a href="#" class="logo">KCS</a>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <img src="images/image.png" alt="Karri Chandra Sekhar" class="profile-img">
+      <h1>Karri Chandra Sekhar</h1>
+      <p class="subtitle">B.Tech ECE | IIT Bhubaneswar</p>
+      <p class="tagline">Passionate about VLSI Design, Embedded Systems, GPU Programming, and building innovative hardware-software solutions.</p>
+      <div class="hero-buttons">
+        <a href="assets/resume.pdf" class="btn btn-primary" download>Download Resume</a>
+        <a href="#projects" class="btn btn-secondary">View Projects</a>
+        <a href="#contact" class="btn btn-secondary">Contact Me</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <div class="container">
+      <h2 class="section-title">About Me</h2>
+      <div class="about-content">
+        <div class="about-text">
+          <p>I am a final year B.Tech student in Electronics and Communication Engineering at Indian Institute of Technology Bhubaneswar, with a strong foundation in VLSI Design, Embedded Systems, and GPU Programming.</p>
+          <p>My passion lies in designing efficient digital systems, from processor architectures to FPGA implementations. I enjoy working at the intersection of hardware and software, creating solutions that push the boundaries of technology.</p>
+          <p>I am actively involved in research, hackathons, and community activities, and I'm always eager to learn and collaborate on innovative projects.</p>
+        </div>
+        <div class="about-stats">
+          <div class="stat-card">
+            <h3>7.89</h3>
+            <p>CGPA</p>
+          </div>
+          <div class="stat-card">
+            <h3>7+</h3>
+            <p>Projects</p>
+          </div>
+          <div class="stat-card">
+            <h3>Top 30</h3>
+            <p>Sense2Scale Hackathon</p>
+          </div>
+          <div class="stat-card">
+            <h3>₹1L</h3>
+            <p>LPU Scholarship</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="skills">
+    <div class="container">
+      <h2 class="section-title">Technical Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <h3>Programming Languages</h3>
+          <ul>
+            <li>Verilog</li>
+            <li>C / C++</li>
+            <li>CUDA</li>
+            <li>Python</li>
+          </ul>
+        </div>
+        <div class="skill-card">
+          <h3>Tools & Software</h3>
+          <ul>
+            <li>Xilinx Vivado</li>
+            <li>MATLAB</li>
+            <li>LTSpice</li>
+            <li>Cadence</li>
+            <li>KiCad / Altium</li>
+            <li>Canva</li>
+          </ul>
+        </div>
+        <div class="skill-card">
+          <h3>Technical Skills</h3>
+          <ul>
+            <li>Object-Oriented Programming</li>
+            <li>Data Structures & Algorithms</li>
+            <li>HTML / CSS / Bootstrap</li>
+            <li>FPGA Development</li>
+            <li>PCB Design</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects">
+    <div class="container">
+      <h2 class="section-title">Projects</h2>
+      <div class="projects-grid">
+        
+        <div class="project-card">
+          <div class="project-content">
+            <h3>32-bit MIPS Processor Design</h3>
+            <p>Designed a 5-stage pipelined 32-bit MIPS processor in Verilog with instruction fetch, decode, execute, memory, and write-back stages. Validated through simulation.</p>
+            <div class="project-tags">
+              <span class="tag">Verilog</span>
+              <span class="tag">Processor Design</span>
+              <span class="tag">Simulation</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-content">
+            <h3>Type 2 Phase-Locked Loop (PLL)</h3>
+            <p>Designed a Type-2 PLL circuit for stable frequency amplification, developed PCB design using KiCad, soldered and tested with oscilloscope.</p>
+            <div class="project-tags">
+              <span class="tag">KiCad</span>
+              <span class="tag">PCB Design</span>
+              <span class="tag">Analog Circuits</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-content">
+            <h3>BFLOAT16 Arithmetic on FPGA</h3>
+            <p>Implemented bfloat16 floating-point addition, subtraction, and multiplication units in Verilog. Tested on Basys3 FPGA using Xilinx Vivado.</p>
+            <div class="project-tags">
+              <span class="tag">Verilog</span>
+              <span class="tag">FPGA</span>
+              <span class="tag">Xilinx Vivado</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-content">
+            <h3>UART Protocol Implementation</h3>
+            <p>Designed UART protocol in Verilog with transmitter and receiver modules, configurable baud rate. Verified using FIFO buffers and puTTY.</p>
+            <div class="project-tags">
+              <span class="tag">Verilog</span>
+              <span class="tag">UART</span>
+              <span class="tag">Hardware Testing</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-content">
+            <h3>NSS IIT Bhubaneswar Website</h3>
+            <p>Collaborated to develop the NSS IIT Bhubaneswar website using AI tools, creating a user-friendly platform for the team.</p>
+            <div class="project-tags">
+              <span class="tag">Web Development</span>
+              <span class="tag">HTML/CSS</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-content">
+            <h3>Respire India - Respiratory Monitor</h3>
+            <p>Led a team to design a low-cost respiratory monitoring system using sensors for asthma/COPD patients. Secured Top 30 in Sense2Scale Hackathon 2025.</p>
+            <div class="project-tags">
+              <span class="tag">IoT</span>
+              <span class="tag">Healthcare</span>
+              <span class="tag">Hackathon</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-content">
+            <h3>Grocery Store Website (GC Webthon)</h3>
+            <p>Designed a grocery store website using HTML, CSS, JS for GC Webthon. Developed responsive web pages with enhanced UX, hosted on GitHub.</p>
+            <div class="project-tags">
+              <span class="tag">HTML</span>
+              <span class="tag">CSS</span>
+              <span class="tag">JavaScript</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience Section -->
+  <section id="experience" class="experience">
+    <div class="container">
+      <h2 class="section-title">Experience & Achievements</h2>
+      <div class="timeline">
+        
+        <div class="timeline-item">
+          <h3>GPU Programming Intern</h3>
+          <p class="date">May 2025 - July 2025 | Dr. Devashree Tripathy, CSE, IIT Bhubaneswar</p>
+          <p>Developed custom benchmarking scripts for GPU-based convolution and Deriche filtering. Implemented optimized matrix multiplication kernels using CUDA. Reviewed research on NVIDIA H100 architecture.</p>
+        </div>
+
+        <div class="timeline-item">
+          <h3>NSS Mentor, IIT Bhubaneswar</h3>
+          <p class="date">Aug 2024 - Present</p>
+          <p>Guiding and mentoring junior students in NSS activities, fostering teamwork, leadership, and community engagement through workshops and events.</p>
+        </div>
+
+        <div class="timeline-item">
+          <h3>Core Member - Wissenaire & Pravaah</h3>
+          <p class="date">Oct 2023 - Present</p>
+          <p>Core member of Sponsorship and Marketing Team for Wissenaire and Pravaah, IIT Bhubaneswar's flagship tech and cultural fests.</p>
+        </div>
+
+        <div class="timeline-item">
+          <h3>Sah Astitva - Animal Welfare Society</h3>
+          <p class="date">Sep 2024 - Present</p>
+          <p>Core member contributing to animal welfare initiatives at IIT Bhubaneswar campus.</p>
+        </div>
+
+        <div class="timeline-item">
+          <h3>LPU NEST Scholarship</h3>
+          <p class="date">Achievement</p>
+          <p>Awarded INR 1,00,000 LPU Scholarship for outstanding academic performance. Secured 53rd rank in LPU NEST exam.</p>
+        </div>
+
+        <div class="timeline-item">
+          <h3>Upa Yoga Program Organizer</h3>
+          <p class="date">Isha Foundation Collaboration</p>
+          <p>Led a team in organizing a 3-day Upa Yoga program in collaboration with Isha Foundation.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Education Section -->
+  <section id="education" class="about">
+    <div class="container">
+      <h2 class="section-title">Education</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <h3>Indian Institute of Technology Bhubaneswar</h3>
+          <p class="date">2023 - Present</p>
+          <p>B.Tech in Electronics and Communication Engineering | CGPA: 7.89 (Till 4th sem)</p>
+        </div>
+        <div class="timeline-item">
+          <h3>Sasi Educational Institute, Velivennu</h3>
+          <p class="date">2021 - 2023</p>
+          <p>CBSE (Class 11 & 12) | Score: 467 / 500</p>
+        </div>
+        <div class="timeline-item">
+          <h3>Sasi Educational Institute, Velivennu</h3>
+          <p class="date">2019 - 2021</p>
+          <p>State Board (Upto Class 10) | Score: 599 / 600</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2 class="section-title">Get In Touch</h2>
+      <div class="contact-content">
+        <p>I'm always open to discussing new projects, internship opportunities, or collaborations. Feel free to reach out!</p>
+        <div class="contact-links">
+          <a href="mailto:23ec01021@iitbbs.ac.in" class="contact-link">
+            ✉ Email
+          </a>
+          <a href="tel:+919398543466" class="contact-link">
+            📞 Phone
+          </a>
+          <a href="https://github.com/Chandrasekharkarri-26" target="_blank" class="contact-link">
+            ⌨ GitHub
+          </a>
+          <a href="https://linkedin.com/in/chandrasekharkarri26" target="_blank" class="contact-link">
+            💼 LinkedIn
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="social-links">
+      <a href="https://github.com/Chandrasekharkarri-26" target="_blank">GitHub</a>
+      <a href="https://linkedin.com/in/chandrasekharkarri26" target="_blank">LinkedIn</a>
+      <a href="mailto:23ec01021@iitbbs.ac.in">Email</a>
+    </div>
+    <p>&copy; 2026 Karri Chandra Sekhar. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
