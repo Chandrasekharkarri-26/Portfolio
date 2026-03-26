@@ -3,37 +3,84 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Karri Chandra Sekhar | Portfolio</title>
-  <meta name="description" content="Portfolio of Karri Chandra Sekhar - B.Tech ECE student at IIT Bhubaneswar, specializing in VLSI, Embedded Systems, and GPU Programming.">
+  <title>Karri Chandra Sekhar | VLSI & FPGA Engineer Portfolio</title>
+  <meta name="description" content="Portfolio of Karri Chandra Sekhar - B.Tech ECE at IIT Bhubaneswar specializing in VLSI, FPGA, RISC-V processor design, and GPU programming.">
+  <meta name="keywords" content="Karri Chandra Sekhar, VLSI, FPGA, RISC-V, IIT Bhubaneswar, Electronics Engineer, Portfolio">
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <!-- AOS (Animate On Scroll) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+
+  <!-- Custom Styles -->
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
+  <!-- Particles Background -->
+  <div id="particles-js"></div>
+
   <!-- Navigation -->
-  <nav>
+  <nav class="navbar">
     <div class="container">
-      <a href="#" class="logo">KCS</a>
-      <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#experience">Experience</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
+      <div class="nav-wrapper">
+        <a href="#" class="logo">
+          <i class="fas fa-microchip"></i> KCS
+        </a>
+        <ul class="nav-menu">
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#education" class="nav-link">Education</a></li>
+          <li><a href="#internship" class="nav-link">Internship</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#awards" class="nav-link">Awards</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
     </div>
   </nav>
 
   <!-- Hero Section -->
   <section class="hero">
-    <div class="hero-content">
-      <img src="images/image.png" alt="Karri Chandra Sekhar" class="profile-img">
-      <h1>Karri Chandra Sekhar</h1>
-      <p class="subtitle">B.Tech ECE | IIT Bhubaneswar</p>
-      <p class="tagline">Passionate about VLSI Design, Embedded Systems, GPU Programming, and building innovative hardware-software solutions.</p>
-      <div class="hero-buttons">
-        <a href="assets/resume.pdf" class="btn btn-primary" download>Download Resume</a>
-        <a href="#projects" class="btn btn-secondary">View Projects</a>
-        <a href="#contact" class="btn btn-secondary">Contact Me</a>
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-text" data-aos="fade-up">
+          <h1 class="hero-title">
+            <span class="typing-text"></span>
+          </h1>
+          <p class="hero-subtitle">B.Tech ECE | IIT Bhubaneswar</p>
+          <p class="hero-description">
+            Designing next-generation digital systems with expertise in VLSI, FPGA, RISC-V architecture, and GPU programming
+          </p>
+          <div class="hero-buttons">
+            <a href="#contact" class="btn btn-primary">
+              <i class="fas fa-envelope"></i> Get In Touch
+            </a>
+            <a href="#projects" class="btn btn-secondary">
+              <i class="fas fa-project-diagram"></i> View Projects
+            </a>
+            <a href="assets/resume.pdf" class="btn btn-secondary" download>
+              <i class="fas fa-download"></i> Resume
+            </a>
+          </div>
+          <div class="social-links-hero">
+            <a href="https://github.com/Chandrasekharkarri-26" target="_blank" title="GitHub">
+              <i class="fab fa-github"></i>
+            </a>
+            <a href="https://linkedin.com/in/chandrasekharkarri26" target="_blank" title="LinkedIn">
+              <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="mailto:chandrasekharkarri2005@gmail.com" title="Email">
+              <i class="fas fa-envelope"></i>
+            </a>
+          </div>
+        </div>
       </div>
     </div>
   </section>
@@ -41,29 +88,40 @@
   <!-- About Section -->
   <section id="about" class="about">
     <div class="container">
-      <h2 class="section-title">About Me</h2>
+      <h2 class="section-title" data-aos="fade-up">About Me</h2>
       <div class="about-content">
-        <div class="about-text">
-          <p>I am a final year B.Tech student in Electronics and Communication Engineering at Indian Institute of Technology Bhubaneswar, with a strong foundation in VLSI Design, Embedded Systems, and GPU Programming.</p>
-          <p>My passion lies in designing efficient digital systems, from processor architectures to FPGA implementations. I enjoy working at the intersection of hardware and software, creating solutions that push the boundaries of technology.</p>
-          <p>I am actively involved in research, hackathons, and community activities, and I'm always eager to learn and collaborate on innovative projects.</p>
+        <div class="about-text" data-aos="fade-right">
+          <p>
+            I'm a B.Tech student in Electronics and Communication Engineering at <strong>IIT Bhubaneswar</strong>
+            (2023–Present, CGPA: 7.81), specializing in <strong>VLSI/FPGA design</strong>, <strong>RISC-V processor architecture</strong>,
+            and <strong>SoC integration</strong>.
+          </p>
+          <p>
+            I have hands-on experience with <strong>Verilog, SystemVerilog, CUDA</strong> programming, and multiple FPGA boards
+            including <strong>Basys3, ZedBoard, PYNQ-Z2, and ZCU104</strong>. Currently learning <strong>SystemVerilog, UVM,
+            and Physical Design (RTL-to-GDSII)</strong>.
+          </p>
+          <p>
+            My passion lies in designing efficient digital systems—from processor architectures to complete SoC implementations.
+            I enjoy solving complex hardware design challenges and pushing the boundaries of semiconductor technology.
+          </p>
         </div>
-        <div class="about-stats">
+        <div class="about-stats" data-aos="fade-left">
           <div class="stat-card">
-            <h3>7.89</h3>
+            <h3>7.81</h3>
             <p>CGPA</p>
           </div>
           <div class="stat-card">
             <h3>7+</h3>
-            <p>Projects</p>
+            <p>Major Projects</p>
           </div>
           <div class="stat-card">
-            <h3>Top 30</h3>
-            <p>Sense2Scale Hackathon</p>
+            <h3>4</h3>
+            <p>FPGA Boards</p>
           </div>
           <div class="stat-card">
             <h3>₹1L</h3>
-            <p>LPU Scholarship</p>
+            <p>Scholarship</p>
           </div>
         </div>
       </div>
@@ -73,36 +131,166 @@
   <!-- Skills Section -->
   <section id="skills" class="skills">
     <div class="container">
-      <h2 class="section-title">Technical Skills</h2>
+      <h2 class="section-title" data-aos="fade-up">Technical Skills</h2>
       <div class="skills-grid">
-        <div class="skill-card">
-          <h3>Programming Languages</h3>
-          <ul>
-            <li>Verilog</li>
-            <li>C / C++</li>
-            <li>CUDA</li>
-            <li>Python</li>
+        <div class="skill-card" data-aos="zoom-in">
+          <h3><i class="fas fa-code"></i> Languages</h3>
+          <div class="skill-list">
+            <span class="skill-tag">Verilog</span>
+            <span class="skill-tag">SystemVerilog</span>
+            <span class="skill-tag">C/C++</span>
+            <span class="skill-tag">CUDA</span>
+          </div>
+        </div>
+
+        <div class="skill-card" data-aos="zoom-in">
+          <h3><i class="fas fa-network-wired"></i> Protocols & IPs</h3>
+          <div class="skill-list">
+            <span class="skill-tag">AMBA AHB</span>
+            <span class="skill-tag">APB</span>
+            <span class="skill-tag">UART</span>
+            <span class="skill-tag">GRLIB</span>
+            <span class="skill-tag">NOEL-V</span>
+          </div>
+        </div>
+
+        <div class="skill-card" data-aos="zoom-in">
+          <h3><i class="fas fa-tools"></i> EDA Tools</h3>
+          <div class="skill-list">
+            <span class="skill-tag">Xilinx Vivado</span>
+            <span class="skill-tag">Vitis</span>
+            <span class="skill-tag">Cadence</span>
+            <span class="skill-tag">MATLAB</span>
+            <span class="skill-tag">LTSpice</span>
+          </div>
+        </div>
+
+        <div class="skill-card" data-aos="zoom-in">
+          <h3><i class="fas fa-microchip"></i> FPGA Boards</h3>
+          <div class="skill-list">
+            <span class="skill-tag">Basys3</span>
+            <span class="skill-tag">ZedBoard</span>
+            <span class="skill-tag">PYNQ-Z2</span>
+            <span class="skill-tag">ZCU104</span>
+          </div>
+        </div>
+
+        <div class="skill-card" data-aos="zoom-in">
+          <h3><i class="fas fa-pencil-ruler"></i> Design & PCB</h3>
+          <div class="skill-list">
+            <span class="skill-tag">KiCad</span>
+            <span class="skill-tag">Altium</span>
+            <span class="skill-tag">PCB Design</span>
+            <span class="skill-tag">Schematic</span>
+          </div>
+        </div>
+
+        <div class="skill-card" data-aos="zoom-in">
+          <h3><i class="fas fa-graduation-cap"></i> Currently Learning</h3>
+          <div class="skill-list">
+            <span class="skill-tag">UVM (Learning)</span>
+            <span class="skill-tag">Physical Design</span>
+            <span class="skill-tag">RTL-to-GDSII</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education Section -->
+  <section id="education" class="education">
+    <div class="container">
+      <h2 class="section-title" data-aos="fade-up">Education</h2>
+      <div class="timeline">
+        <div class="timeline-item" data-aos="fade-right">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <h3>Indian Institute of Technology Bhubaneswar</h3>
+            <p class="date"><i class="fas fa-calendar"></i> 2023 – Present</p>
+            <p class="degree">B.Tech in Electronics and Communication Engineering</p>
+            <p class="details">CGPA: 7.81 (Till 5th Semester)</p>
+          </div>
+        </div>
+
+        <div class="timeline-item" data-aos="fade-right">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <h3>Sasi Educational Institute, Velivennu</h3>
+            <p class="date"><i class="fas fa-calendar"></i> 2021 – 2023</p>
+            <p class="degree">CBSE (Class 11 & 12)</p>
+            <p class="details">Score: 467/500</p>
+          </div>
+        </div>
+
+        <div class="timeline-item" data-aos="fade-right">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <h3>Sasi Educational Institute, Velivennu</h3>
+            <p class="date"><i class="fas fa-calendar"></i> 2019 – 2021</p>
+            <p class="degree">State Board (Upto Class 10)</p>
+            <p class="details">Score: 599/600</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Internship Section -->
+  <section id="internship" class="internship">
+    <div class="container">
+      <h2 class="section-title" data-aos="fade-up">Internship & Experience</h2>
+      <div class="experience-grid">
+        <div class="experience-card" data-aos="fade-up">
+          <div class="experience-header">
+            <h3>GPU Programming & Benchmarking Intern</h3>
+            <p class="duration"><i class="fas fa-clock"></i> May 2025 – Jul 2025</p>
+          </div>
+          <p class="mentor"><strong>Under:</strong> Dr. Devashree Tripathy, CSE, IIT Bhubaneswar</p>
+          <ul class="experience-details">
+            <li>Acquired foundational knowledge in CUDA development, GPU microarchitecture, and parallel computing</li>
+            <li>Implemented optimized matrix multiplication kernels using advanced memory management techniques</li>
+            <li>Developed custom benchmarking scripts for GPU-based convolution and Deriche filtering</li>
+            <li>Reviewed NVIDIA H100 architecture and parallel computing optimization strategies</li>
           </ul>
         </div>
-        <div class="skill-card">
-          <h3>Tools & Software</h3>
-          <ul>
-            <li>Xilinx Vivado</li>
-            <li>MATLAB</li>
-            <li>LTSpice</li>
-            <li>Cadence</li>
-            <li>KiCad / Altium</li>
-            <li>Canva</li>
+
+        <div class="experience-card" data-aos="fade-up">
+          <div class="experience-header">
+            <h3>NSS Coordinator</h3>
+            <p class="duration"><i class="fas fa-clock"></i> Aug 2024 – Present</p>
+          </div>
+          <p class="organization"><strong>Organization:</strong> NSS, IIT Bhubaneswar</p>
+          <ul class="experience-details">
+            <li>Organizing blood donation camps and plantation drives</li>
+            <li>Heading special camps and community service initiatives</li>
+            <li>Attended Youth Leadership Training (YLT) camp</li>
+            <li>Mentoring junior students in NSS activities</li>
           </ul>
         </div>
-        <div class="skill-card">
-          <h3>Technical Skills</h3>
-          <ul>
-            <li>Object-Oriented Programming</li>
-            <li>Data Structures & Algorithms</li>
-            <li>HTML / CSS / Bootstrap</li>
-            <li>FPGA Development</li>
-            <li>PCB Design</li>
+
+        <div class="experience-card" data-aos="fade-up">
+          <div class="experience-header">
+            <h3>Core Head – Sponsorship & Marketing</h3>
+            <p class="duration"><i class="fas fa-clock"></i> 2023 – Present</p>
+          </div>
+          <p class="organization"><strong>Organizations:</strong> Wissenaire & Pravaah, IIT Bhubaneswar</p>
+          <ul class="experience-details">
+            <li>Leading sponsorship and marketing strategies for IIT Bhubaneswar's flagship tech fest (Wissenaire)</li>
+            <li>Managing marketing initiatives for cultural fest (Pravaah 2025)</li>
+            <li>Coordinating partnerships and brand collaborations</li>
+          </ul>
+        </div>
+
+        <div class="experience-card" data-aos="fade-up">
+          <div class="experience-header">
+            <h3>Core Head – Sah Astitva</h3>
+            <p class="duration"><i class="fas fa-clock"></i> Sep 2024 – Present</p>
+          </div>
+          <p class="organization"><strong>Organization:</strong> Sah Astitva (Animal Welfare Society), IIT Bhubaneswar</p>
+          <ul class="experience-details">
+            <li>Leading animal welfare initiatives at IIT Bhubaneswar campus</li>
+            <li>Organizing rescue and rehabilitation programs</li>
+            <li>Raising awareness about animal rights and welfare</li>
           </ul>
         </div>
       </div>
@@ -112,89 +300,131 @@
   <!-- Projects Section -->
   <section id="projects" class="projects">
     <div class="container">
-      <h2 class="section-title">Projects</h2>
+      <h2 class="section-title" data-aos="fade-up">Featured Projects</h2>
       <div class="projects-grid">
-        
-        <div class="project-card">
-          <div class="project-content">
-            <h3>32-bit MIPS Processor Design</h3>
-            <p>Designed a 5-stage pipelined 32-bit MIPS processor in Verilog with instruction fetch, decode, execute, memory, and write-back stages. Validated through simulation.</p>
-            <div class="project-tags">
-              <span class="tag">Verilog</span>
-              <span class="tag">Processor Design</span>
-              <span class="tag">Simulation</span>
-            </div>
+
+        <div class="project-card" data-aos="zoom-in">
+          <div class="project-header">
+            <h3>Linux Boot on PYNQ-Z2 (Zynq SoC)</h3>
+            <p class="project-date"><i class="fas fa-calendar"></i> Jan 2026</p>
+          </div>
+          <p class="project-description">
+            Configured Zynq PS using Vivado block design and successfully booted Linux on the PYNQ-Z2 board via SD card.
+            Explored PS-PL integration and tested basic peripheral communication (GPIO, UART) from Linux userspace.
+          </p>
+          <div class="project-tags">
+            <span class="tag">Vivado</span>
+            <span class="tag">Zynq</span>
+            <span class="tag">Linux</span>
+            <span class="tag">SoC</span>
           </div>
         </div>
 
-        <div class="project-card">
-          <div class="project-content">
-            <h3>Type 2 Phase-Locked Loop (PLL)</h3>
-            <p>Designed a Type-2 PLL circuit for stable frequency amplification, developed PCB design using KiCad, soldered and tested with oscilloscope.</p>
-            <div class="project-tags">
-              <span class="tag">KiCad</span>
-              <span class="tag">PCB Design</span>
-              <span class="tag">Analog Circuits</span>
-            </div>
+        <div class="project-card" data-aos="zoom-in">
+          <div class="project-header">
+            <h3>AMBA AHB Slave Integration with NOEL-V</h3>
+            <p class="project-date"><i class="fas fa-calendar"></i> Dec 2025</p>
+          </div>
+          <p class="project-description">
+            Studied AMBA AHB protocol and explored GRLIB open-source IP library with NOEL-V RISC-V SoC framework.
+            Integrated a custom AHB slave peripheral into the NOEL-V subsystem targeting ZCU104 (Zynq UltraScale+).
+            Gained hands-on understanding of SoC bus interconnect design and IP integration workflows.
+          </p>
+          <div class="project-tags">
+            <span class="tag">Verilog</span>
+            <span class="tag">AMBA AHB</span>
+            <span class="tag">GRLIB</span>
+            <span class="tag">RISC-V</span>
+            <span class="tag">Vivado</span>
           </div>
         </div>
 
-        <div class="project-card">
-          <div class="project-content">
+        <div class="project-card" data-aos="zoom-in">
+          <div class="project-header">
+            <h3>RISC-V Processor Design (Single/Multi/Pipelined)</h3>
+            <p class="project-date"><i class="fas fa-calendar"></i> Dec 2025</p>
+          </div>
+          <p class="project-description">
+            Designed a 32-bit RISC-V (RV32I) processor, progressively building single-cycle, multi-cycle, and 5-stage
+            pipelined architectures. Implemented hazard detection and data forwarding logic; supported R/I/S/B-type instructions.
+            Synthesized and validated on FPGA using Xilinx Vivado with functional verification through testbenches.
+          </p>
+          <div class="project-tags">
+            <span class="tag">Verilog</span>
+            <span class="tag">RISC-V</span>
+            <span class="tag">Processor Design</span>
+            <span class="tag">Vivado</span>
+            <span class="tag">FPGA</span>
+          </div>
+        </div>
+
+        <div class="project-card" data-aos="zoom-in">
+          <div class="project-header">
+            <h3>32-bit MIPS Processor (5-Stage Pipelined)</h3>
+            <p class="project-date"><i class="fas fa-calendar"></i> Jun 2025</p>
+          </div>
+          <p class="project-description">
+            Designed a 5-stage pipelined 32-bit MIPS processor with instruction fetch, decode, execute, memory,
+            and write-back stages. Supported arithmetic, logical, load/store, and branch instructions with
+            two-phase clock architecture.
+          </p>
+          <div class="project-tags">
+            <span class="tag">Verilog</span>
+            <span class="tag">MIPS</span>
+            <span class="tag">Processor Design</span>
+            <span class="tag">Vivado</span>
+          </div>
+        </div>
+
+        <div class="project-card" data-aos="zoom-in">
+          <div class="project-header">
+            <h3>UART Protocol Implementation on FPGA</h3>
+            <p class="project-date"><i class="fas fa-calendar"></i> May 2025</p>
+          </div>
+          <p class="project-description">
+            Designed UART transmitter and receiver modules with configurable baud rate and FIFO buffers.
+            Verified reliable data transmission through hardware testing using PuTTY terminal.
+            Implemented proper synchronization and timing control for serial communication.
+          </p>
+          <div class="project-tags">
+            <span class="tag">Verilog</span>
+            <span class="tag">UART</span>
+            <span class="tag">Vivado</span>
+            <span class="tag">Hardware Testing</span>
+          </div>
+        </div>
+
+        <div class="project-card" data-aos="zoom-in">
+          <div class="project-header">
             <h3>BFLOAT16 Arithmetic on FPGA</h3>
-            <p>Implemented bfloat16 floating-point addition, subtraction, and multiplication units in Verilog. Tested on Basys3 FPGA using Xilinx Vivado.</p>
-            <div class="project-tags">
-              <span class="tag">Verilog</span>
-              <span class="tag">FPGA</span>
-              <span class="tag">Xilinx Vivado</span>
-            </div>
+            <p class="project-date"><i class="fas fa-calendar"></i> Apr 2025</p>
+          </div>
+          <p class="project-description">
+            Designed bfloat16 floating-point addition, subtraction, and multiplication units in Verilog.
+            Synthesized and tested on Basys3 FPGA using Xilinx Vivado. Implemented results visualization via switch inputs and LED outputs.
+          </p>
+          <div class="project-tags">
+            <span class="tag">Verilog</span>
+            <span class="tag">Floating-Point</span>
+            <span class="tag">Basys3</span>
+            <span class="tag">Vivado</span>
           </div>
         </div>
 
-        <div class="project-card">
-          <div class="project-content">
-            <h3>UART Protocol Implementation</h3>
-            <p>Designed UART protocol in Verilog with transmitter and receiver modules, configurable baud rate. Verified using FIFO buffers and puTTY.</p>
-            <div class="project-tags">
-              <span class="tag">Verilog</span>
-              <span class="tag">UART</span>
-              <span class="tag">Hardware Testing</span>
-            </div>
+        <div class="project-card" data-aos="zoom-in">
+          <div class="project-header">
+            <h3>Type-2 PLL Circuit Design + PCB</h3>
+            <p class="project-date"><i class="fas fa-calendar"></i> Dec 2024</p>
           </div>
-        </div>
-
-        <div class="project-card">
-          <div class="project-content">
-            <h3>NSS IIT Bhubaneswar Website</h3>
-            <p>Collaborated to develop the NSS IIT Bhubaneswar website using AI tools, creating a user-friendly platform for the team.</p>
-            <div class="project-tags">
-              <span class="tag">Web Development</span>
-              <span class="tag">HTML/CSS</span>
-            </div>
-          </div>
-        </div>
-
-        <div class="project-card">
-          <div class="project-content">
-            <h3>Respire India - Respiratory Monitor</h3>
-            <p>Led a team to design a low-cost respiratory monitoring system using sensors for asthma/COPD patients. Secured Top 30 in Sense2Scale Hackathon 2025.</p>
-            <div class="project-tags">
-              <span class="tag">IoT</span>
-              <span class="tag">Healthcare</span>
-              <span class="tag">Hackathon</span>
-            </div>
-          </div>
-        </div>
-
-        <div class="project-card">
-          <div class="project-content">
-            <h3>Grocery Store Website (GC Webthon)</h3>
-            <p>Designed a grocery store website using HTML, CSS, JS for GC Webthon. Developed responsive web pages with enhanced UX, hosted on GitHub.</p>
-            <div class="project-tags">
-              <span class="tag">HTML</span>
-              <span class="tag">CSS</span>
-              <span class="tag">JavaScript</span>
-            </div>
+          <p class="project-description">
+            Designed a Type-2 PLL for stable frequency amplification. Developed PCB in KiCad, soldered components,
+            and tested with oscilloscope. Validated circuit performance and frequency stability.
+          </p>
+          <div class="project-tags">
+            <span class="tag">PCB Design</span>
+            <span class="tag">KiCad</span>
+            <span class="tag">Analog Circuits</span>
+            <span class="tag">PLL</span>
           </div>
         </div>
 
@@ -202,71 +432,27 @@
     </div>
   </section>
 
-  <!-- Experience Section -->
-  <section id="experience" class="experience">
+  <!-- Awards Section -->
+  <section id="awards" class="awards">
     <div class="container">
-      <h2 class="section-title">Experience & Achievements</h2>
-      <div class="timeline">
-        
-        <div class="timeline-item">
-          <h3>GPU Programming Intern</h3>
-          <p class="date">May 2025 - July 2025 | Dr. Devashree Tripathy, CSE, IIT Bhubaneswar</p>
-          <p>Developed custom benchmarking scripts for GPU-based convolution and Deriche filtering. Implemented optimized matrix multiplication kernels using CUDA. Reviewed research on NVIDIA H100 architecture.</p>
-        </div>
-
-        <div class="timeline-item">
-          <h3>NSS Mentor, IIT Bhubaneswar</h3>
-          <p class="date">Aug 2024 - Present</p>
-          <p>Guiding and mentoring junior students in NSS activities, fostering teamwork, leadership, and community engagement through workshops and events.</p>
-        </div>
-
-        <div class="timeline-item">
-          <h3>Core Member - Wissenaire & Pravaah</h3>
-          <p class="date">Oct 2023 - Present</p>
-          <p>Core member of Sponsorship and Marketing Team for Wissenaire and Pravaah, IIT Bhubaneswar's flagship tech and cultural fests.</p>
-        </div>
-
-        <div class="timeline-item">
-          <h3>Sah Astitva - Animal Welfare Society</h3>
-          <p class="date">Sep 2024 - Present</p>
-          <p>Core member contributing to animal welfare initiatives at IIT Bhubaneswar campus.</p>
-        </div>
-
-        <div class="timeline-item">
+      <h2 class="section-title" data-aos="fade-up">Awards & Recognition</h2>
+      <div class="awards-grid">
+        <div class="award-card" data-aos="fade-up">
+          <div class="award-icon">
+            <i class="fas fa-trophy"></i>
+          </div>
           <h3>LPU NEST Scholarship</h3>
-          <p class="date">Achievement</p>
-          <p>Awarded INR 1,00,000 LPU Scholarship for outstanding academic performance. Secured 53rd rank in LPU NEST exam.</p>
+          <p>Awarded INR 1,00,000 LPU Scholarship for outstanding academic performance.</p>
+          <p class="achievement">Secured 53rd rank in LPU NEST exam</p>
         </div>
 
-        <div class="timeline-item">
-          <h3>Upa Yoga Program Organizer</h3>
-          <p class="date">Isha Foundation Collaboration</p>
-          <p>Led a team in organizing a 3-day Upa Yoga program in collaboration with Isha Foundation.</p>
-        </div>
-
-      </div>
-    </div>
-  </section>
-
-  <!-- Education Section -->
-  <section id="education" class="about">
-    <div class="container">
-      <h2 class="section-title">Education</h2>
-      <div class="timeline">
-        <div class="timeline-item">
-          <h3>Indian Institute of Technology Bhubaneswar</h3>
-          <p class="date">2023 - Present</p>
-          <p>B.Tech in Electronics and Communication Engineering | CGPA: 7.89 (Till 4th sem)</p>
-        </div>
-        <div class="timeline-item">
-          <h3>Sasi Educational Institute, Velivennu</h3>
-          <p class="date">2021 - 2023</p>
-          <p>CBSE (Class 11 & 12) | Score: 467 / 500</p>
-        </div>
-        <div class="timeline-item">
-          <h3>Sasi Educational Institute, Velivennu</h3>
-          <p class="date">2019 - 2021</p>
-          <p>State Board (Upto Class 10) | Score: 599 / 600</p>
+        <div class="award-card" data-aos="fade-up">
+          <div class="award-icon">
+            <i class="fas fa-medal"></i>
+          </div>
+          <h3>Sense2Scale Hackathon 2025</h3>
+          <p>Secured Top 30 position in Sense2Scale Hackathon 2025.</p>
+          <p class="achievement">Project: Respire India – Low-Cost Respiratory Monitoring System</p>
         </div>
       </div>
     </div>
@@ -275,36 +461,74 @@
   <!-- Contact Section -->
   <section id="contact" class="contact">
     <div class="container">
-      <h2 class="section-title">Get In Touch</h2>
-      <div class="contact-content">
-        <p>I'm always open to discussing new projects, internship opportunities, or collaborations. Feel free to reach out!</p>
-        <div class="contact-links">
-          <a href="mailto:23ec01021@iitbbs.ac.in" class="contact-link">
-            ✉ Email
-          </a>
-          <a href="tel:+919398543466" class="contact-link">
-            📞 Phone
-          </a>
-          <a href="https://github.com/Chandrasekharkarri-26" target="_blank" class="contact-link">
-            ⌨ GitHub
-          </a>
-          <a href="https://linkedin.com/in/chandrasekharkarri26" target="_blank" class="contact-link">
-            💼 LinkedIn
-          </a>
+      <h2 class="section-title" data-aos="fade-up">Get In Touch</h2>
+      <p class="contact-intro" data-aos="fade-up">
+        I'm always open to discussing new projects, internship opportunities, or collaborations. Feel free to reach out!
+      </p>
+
+      <div class="contact-grid" data-aos="fade-up">
+        <div class="contact-card">
+          <i class="fas fa-envelope"></i>
+          <h3>Email</h3>
+          <a href="mailto:chandrasekharkarri2005@gmail.com">chandrasekharkarri2005@gmail.com</a>
+          <a href="mailto:23ec01021@iitbbs.ac.in">(College) 23ec01021@iitbbs.ac.in</a>
         </div>
+
+        <div class="contact-card">
+          <i class="fas fa-phone"></i>
+          <h3>Phone</h3>
+          <a href="tel:+919398543466">(+91) 9398543466</a>
+        </div>
+
+        <div class="contact-card">
+          <i class="fas fa-code-branch"></i>
+          <h3>GitHub</h3>
+          <a href="https://github.com/Chandrasekharkarri-26" target="_blank">github.com/Chandrasekharkarri-26</a>
+        </div>
+
+        <div class="contact-card">
+          <i class="fab fa-linkedin"></i>
+          <h3>LinkedIn</h3>
+          <a href="https://linkedin.com/in/chandrasekharkarri26" target="_blank">linkedin.com/in/chandrasekharkarri26</a>
+        </div>
+
+        <div class="contact-card">
+          <i class="fas fa-globe"></i>
+          <h3>Portfolio</h3>
+          <a href="https://chandrasekharkarri-26.github.io/Portfolio/" target="_blank">Live Portfolio</a>
+        </div>
+      </div>
+
+      <div class="social-links-footer" data-aos="fade-up">
+        <a href="https://github.com/Chandrasekharkarri-26" target="_blank" title="GitHub">
+          <i class="fab fa-github"></i>
+        </a>
+        <a href="https://linkedin.com/in/chandrasekharkarri26" target="_blank" title="LinkedIn">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="mailto:chandrasekharkarri2005@gmail.com" title="Email">
+          <i class="fas fa-envelope"></i>
+        </a>
       </div>
     </div>
   </section>
 
   <!-- Footer -->
-  <footer>
-    <div class="social-links">
-      <a href="https://github.com/Chandrasekharkarri-26" target="_blank">GitHub</a>
-      <a href="https://linkedin.com/in/chandrasekharkarri26" target="_blank">LinkedIn</a>
-      <a href="mailto:23ec01021@iitbbs.ac.in">Email</a>
+  <footer class="footer">
+    <div class="footer-content">
+      <p>&copy; 2026 Karri Chandra Sekhar. Designed & Built with <i class="fas fa-heart"></i></p>
+      <p class="footer-note">Specializing in VLSI, FPGA, and RISC-V Design</p>
     </div>
-    <p>&copy; 2026 Karri Chandra Sekhar. All rights reserved.</p>
   </footer>
+
+  <!-- Particles Background -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
+
+  <!-- AOS Library -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+  <!-- Custom Script -->
+  <script src="script.js"></script>
 
 </body>
 </html>
